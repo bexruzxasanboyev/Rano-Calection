@@ -7,7 +7,7 @@ async function sendFormData() {
   const formDataObj = JSON.parse(formDataRaw);
 
 
-  // Prepare FormData for API
+  // Prepare FormData for AP
   const formData = new FormData();
   formData.append("sheetName", "Lead");
   formData.append("Ism", formDataObj.Ism);
